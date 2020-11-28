@@ -6,8 +6,8 @@ but “painted” in the style of the style reference image.
 
 ### Project description
 
-We have used [VGG-19](https://www.kaggle.com/teksab/imagenetvggverydeep19mat), a 19-layer version of the VGG network(https://github.com/opencv)  and [TensorFlow](https://www.tensorflow.org/) Deep Learning Framework for developing Neural Style Transfer Algorithm.
-Link to the [Notebook](https://github.com/krsanu555/neural-style-transfer/blob/master/Art_Generation_with_Neural_Style_Transfer.ipynb)
+We have used [VGG-19](https://www.kaggle.com/teksab/imagenetvggverydeep19mat), a 19-layer version of the VGG network(https://github.com/opencv)  and [TensorFlow](https://www.tensorflow.org/) Deep Learning Framework for developing Neural Style Transfer Algorithm. <br/>
+Link to the NST Algorithm [Notebook](https://github.com/krsanu555/neural-style-transfer/blob/master/Art_Generation_with_Neural_Style_Transfer.ipynb)
 
 
 ### Set up
@@ -20,6 +20,7 @@ git clone https://github.com/krsanu555/neural-style-transfer.git
 ```
 cd neural-style-transfer
 ```
+3. Download VGG-19 pretrained model from this [link](https://www.kaggle.com/teksab/imagenetvggverydeep19mat) and put this model inside the pretrained-model folder.
 3. Create a virtual environment and install necessary dependecies
 ```
 conda create --name my-env --file requirements.txt
