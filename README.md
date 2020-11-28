@@ -20,7 +20,8 @@ git clone https://github.com/krsanu555/neural-style-transfer.git
 ```
 cd neural-style-transfer
 ```
-3. Download VGG-19 pretrained model from this [link](https://www.kaggle.com/teksab/imagenetvggverydeep19mat) and put this model inside the pretrained-model folder.
+3. Download VGG-19 pretrained model from this [link](https://www.kaggle.com/teksab/imagenetvggverydeep19mat). Create one folder named pretrained-model inside the root directory
+ and put downloaded model inside this folder.
 3. Create a virtual environment and install necessary dependecies
 ```
 conda create --name my-env --file requirements.txt
